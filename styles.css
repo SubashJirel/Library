@@ -1,3 +1,6 @@
+:root {
+  --font-color-main: #fefce8;
+}
 * {
   margin: 0;
   padding: 0;
@@ -13,4 +16,38 @@ h1 {
   text-align: center;
   padding-top: 16px;
   padding-bottom: 16px;
+}
+
+/* form */
+.addBook {
+  word-wrap: break-word;
+  box-sizing: border-box;
+  margin: 0;
+  border: none;
+  color: var(--font-color-main);
+  font-family: inherit;
+  cursor: pointer;
+  outline: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  transition: filter 0.15s ease-in-out;
+  font-size: 24px;
+  font-weight: 600;
+  background-color: #713f12;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: max(50%);
+  padding: 32px;
+}
+.main {
+  display: flex;
+}
+fieldset {
+  color: var(--font-color-main);
+  margin-left: 20px;
+}
+.hide {
+  display: none;
 }
