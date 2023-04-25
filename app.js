@@ -4,7 +4,7 @@ const addBook = document.querySelector('.addBook');
 // toggle book add form
 addBook.addEventListener('click', toggleForm);
 function toggleForm() {
-  document.querySelector('fieldset').classList.toggle('hide');
+  document.querySelector('.fieldset').classList.toggle('hide');
 }
 
 //prevent default for submit
