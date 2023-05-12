@@ -23,7 +23,7 @@ h1 {
 }
 
 /* form */
-.addBook {
+.addBookBtn {
   word-wrap: break-word;
   box-sizing: border-box;
   margin: 0;
@@ -98,4 +98,31 @@ input[type='submit'] {
 input[type='checkbox'] {
   margin-left: 10px;
   padding-left: 10px;
+  border: 2px soild red;
+}
+#checkRead {
+  padding: 10px;
+  border: 2px soild red;
+}
+
+/* // styling of the cards */
+
+#library > div {
+  margin: 0;
+  height: 150px;
+  width: 200px;
+  margin: 20px 30px;
+  padding: 2rem 1.2rem 1.2rem 1.2rem;
+  border-left: 10px solid #1f2937;
+  border-radius: 10px;
+  position: relative;
+  background-color: #f3f4f6;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+#library {
+  display: flex;
+
+  flex-wrap: wrap;
 }

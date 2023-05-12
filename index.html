@@ -16,7 +16,7 @@
   <body>
     <h1>Library</h1>
     <main>
-      <button class="addBook">+ Add Book</button>
+      <button class="addBookBtn">+ Add Book</button>
 
       <div id="book-add-form">
         <div class="fieldset hide">
@@ -35,13 +35,14 @@
               <input type="tel" placeholder="Pages" id="pages" />
             </div>
             <div class="row" id="checkboxSpecial">
-              <label for="read" id="checkRead">Have you read it?</label>
+              <label for="checkRead">Have you read it?</label>
               <input type="checkbox" id="checkRead" />
             </div>
             <input type="submit" value="Add Book" />
           </form>
         </div>
       </div>
+      <div id="library"></div>
     </main>
     <script src="/app.js"></script>
   </body>
