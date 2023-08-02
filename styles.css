@@ -60,7 +60,7 @@ form {
   min-width: 250px;
   margin: 20px auto;
   position: relative;
-  border: 2px solid red;
+  /* border: 2px solid #450a0a; */
   border-radius: 5px;
 }
 
@@ -109,8 +109,8 @@ input[type='checkbox'] {
 
 #library > div {
   margin: 0;
-  height: 150px;
-  width: 200px;
+  height: 221px;
+  width: 207px;
   margin: 20px 30px;
   padding: 2rem 1.2rem 1.2rem 1.2rem;
   border-left: 10px solid #1f2937;
@@ -125,4 +125,52 @@ input[type='checkbox'] {
   display: flex;
 
   flex-wrap: wrap;
+}
+
+/* changing the book div */
+#library > div {
+  display: flex;
+  flex-direction: column;
+  /* font-weight: 900; */
+  font-size: 20px;
+  padding: 0px;
+  resize: both;
+  overflow: auto;
+  text-align: center;
+}
+#library div .card-header h3 {
+  background-color: #7c2d12;
+  color: var(--font-color-main);
+  padding-bottom: 12px;
+}
+.delete-button {
+  --white: #f3f3f3;
+  --blue: #2185d5;
+  --dark1: #2d4059;
+  --dark2: #3a4750;
+
+  outline: none;
+  border: none;
+  width: 100%;
+  display: inline-block;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  background: #365314;
+  color: var(--font-color-main);
+  /* position: relative; */
+  top: 40px;
+  margin-top: auto;
+}
+.delete-icon {
+  cursor: pointer;
+}
+.delete-icon-div {
+  background: #881337;
+  color: var(--font-color-main);
+}
+
+input[type='checkbox'],
+input[type='submit'] {
+  cursor: pointer;
 }
